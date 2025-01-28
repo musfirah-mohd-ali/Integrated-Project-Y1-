@@ -4,20 +4,20 @@ body{
 }
 .banner{
     background: url(source\ images/banner.jpeg) no-repeat center center/cover;
-    height: 300px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
     position: relative;
 }
-.nav-links{
+.nav-link{
     display: flex;
     gap: 60px;
     flex: 1;
-    justify-content: center;
+    justify-content: left;
 }
-.nav-links a{
+.nav-link a{
     color: white;
     text-decoration: none;
     font-size: 30px;
@@ -29,10 +29,18 @@ body{
     align-items: center;
     position: absolute;
     right: 40px;
-    top: 20px;
+    top: 50;
 }
 .logo img{
     width: 100px;
     height: auto;
     margin-bottom: 20px;   
+}
+.icons{
+    display: flex;
+    gap: 15px;
+}
+.icons span{
+    font-size: 25px;
+    cursor: pointer;
 }
