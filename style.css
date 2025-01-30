@@ -46,6 +46,25 @@ body{
     cursor: pointer;
 }
 
+/*SEARCH BAR*/
+.search-container{
+    position: relative;
+    top: -50px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.search-bar{
+    background-color: #222e50;
+    display: flex;
+    padding:15px;
+    border-radius: 10px;
+    align-items: center;
+    gap:15px;
+    box-shadow: 0 px 6px rgba(0,0,0,0.2);
+}
+
 /*FOOTER*/
 footer{
     background: #222e50;
