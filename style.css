@@ -64,6 +64,34 @@ body{
     gap:15px;
     box-shadow: 0 px 6px rgba(0,0,0,0.2);
 }
+.search-bar select, .search-bar input{
+    padding:10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b5ca8d;
+    color: #222e50;
+}
+.search-bar select:focus, .search-bar input:focus{
+    outline: none;
+    border: 2px solid #8bb174;
+}
+.search-bar button{
+    padding: 10px 20px;
+    background-color: #8bb174;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-bar button:hover{
+    background-color: #426b69;
+}
+.search-bar select option{
+    background-color: #222e50;
+    color: white;
+}
 
 /*FOOTER*/
 footer{
