@@ -5,7 +5,8 @@ body{
 /*NAV BAR*/
 .banner{
     background: url(source\ images/banner.jpeg) no-repeat center center/cover;
-    height: 350px;
+    height: 500px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
