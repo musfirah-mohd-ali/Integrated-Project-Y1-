@@ -19,6 +19,10 @@ body{
     flex: 1;
     justify-content: left;
 }
+.nav-link :hover{
+    color: #222e50;
+    cursor: pointer;
+}
 .nav-link a{
     color: white;
     text-decoration: none;
