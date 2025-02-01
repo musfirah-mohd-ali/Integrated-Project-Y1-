@@ -27,16 +27,27 @@ Our mockups was created by using Figma. We created two seperate mockups, one for
     * https://www.figma.com/design/9ORsaw0c2r0C2qjx3bMsaj/IP_Ras_Musfirah_high_fidelity?node-id=1-4&t=kaXfMBAw21xJhqCQ-1
 
 ## Features
-* list of features
-*
+* Search Bar
+* Gifting and Point system
+* Payment system
+* Embedded Google Maps
+* Forms for the Contact Us page
+* Working navigation links between pages.
 
-
-## Technologies Used
-* list of technologies used
+## APIs Used
+* 
 *
 
 ## Attribution of External Source Codes
-* list of external source codes
+* Google Fonts
+    * https://fonts.google.com/
+* API websites:
+    * 
+* Tours and travel plans from tour agencies:
+    * https://www.ishopchangi.com/en/home
+    * https://www.satours.com/
+    * https://www.chanbrothers.com/
+    * https://fayyaztravels.com/
 
 ## Testing
 ### Testing Scenarios:
@@ -46,5 +57,3 @@ Our mockups was created by using Figma. We created two seperate mockups, one for
 3.
 
 ## AI Implementation
-
-## Media and References
