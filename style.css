@@ -336,8 +336,8 @@ footer{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    width: 10%;
-    max-width: 450px;
+    width: 100%;
+    max-width: 100%;
 }
 .contact-form label{
     display: block;
@@ -346,7 +346,7 @@ footer{
     color: #426b69;
 }
 .contact-form input, .contact-form textarea{
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 2px solid #8bb174;
     border-radius: 5px;
