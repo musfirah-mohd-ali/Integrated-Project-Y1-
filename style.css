@@ -444,6 +444,12 @@ footer{
     color: #222e50;
     margin-bottom: 30px;
 }
+.packages-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    justify-items: center;
+    gap: 30px;
+}
 .package-card{
     background-color: #fff;
     border-radius: 10px;
