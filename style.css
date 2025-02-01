@@ -379,3 +379,27 @@ footer{
 .map-container iframe{
     border-radius: 10px;
 }
+
+/*DATES.HTML*/
+.content{
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.content h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222e50;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.content p{
+    font-size: 18px;
+    color: #426b69;
+}
+.content a{
+    color: #8bb174;
+    text-decoration: none;
+}
+.content a:hover{
+    text-decoration: underline;
+}
