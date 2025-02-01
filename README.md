@@ -3,21 +3,21 @@ Musli Travels is a e-commerce travel agency website that allows its users to pur
 
 ## User Audience Intent and Purpose
 ### Who is the website catering for?
+Our website is curated for new travellers that are not familiar with the places they want to travel to and need a bit of help planning out thier iteneraries. Our website is also for those that want to buy some travel essentials such as luggage bags and neck pillows wihtout the hassle of going to another website.
 ### Purpose and Value Provided:
 1. Travellers
     *Simple and convinient way to book their holiday destination which includes iteneraries and miscellaneous items.
     *Simplifies travel for big families or groups so that they don't have to plan out the trip themselves.
     *Givens travellers a variety of destinations so that they are not limited to the basic travel destinations.
-2.
-
-## What is the Website Catering for?
-    - explanation
-    -
+2. Airlines and hotels
+    *Provides easier communication between the traveller and the hotels/airlines.
+    *Helps them gain more customers without having to promote themselves as much.
+    *They still earn revenue even though the traveller cancelled their plans as our company is the middleman handling all the transactions. 
 
 ## Design Process
+So the colour scheme was chosen because we wanted to mix both our favourites colours being blue and green. We also chose our colour scheme as after doing research, we found that travel agencies use earthy and sky-ish tones to relate back to air travel and land travel such as airplanes and trains. Our logo is a luggage bag with a silhouette of an airplane. This is to symbolize the different stages of travel such as the packing of clothing before your flight and the actual travelling on the vessel itself.
 
-## User Stories:
-1. list of ID user stories
+Next our website is inspired by a combination of other travel websites, such as Chan Brothers and Fayyaz Travels. Firstly, we chose the UI to look simple so that our users are not distracted by things such as ads or pop ups. Secondly, we chose this layout design to emphasize functionality over complex aesthetics to allow users a simple way of navigating our site.
 
 ## Wireframes and Mockups:
 
