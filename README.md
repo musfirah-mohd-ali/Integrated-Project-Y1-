@@ -49,11 +49,8 @@ Our mockups was created by using Figma. We created two seperate mockups, one for
     * https://www.chanbrothers.com/
     * https://fayyaztravels.com/
 
-## Testing
-### Testing Scenarios:
-#### Name of item testing
-1.
-2.
-3.
 
 ## AI Implementation
+### ChatGPT
+* To learn how to implement the APIs.
+* To find out where is the best place to put a javascript.
