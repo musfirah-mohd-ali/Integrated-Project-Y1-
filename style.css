@@ -434,3 +434,53 @@ footer{
     line-height: 1.8;
     margin-bottom: 30px;
 }
+.travel-packages{
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.travel-packages h2{
+    font-size: 2rem;
+    color: #222e50;
+    margin-bottom: 30px;
+}
+.package-card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s(ease);
+}
+.package-card:hover{
+    transform: translateY(-10px);
+}
+.package-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.package-card h3{
+    color: #426b69;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+.package-card p{
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.package-card button{
+    padding: 10px 20px;
+    background-color: #8bb174;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.package-card button:hover{
+    background-color: #426b69;
+}
