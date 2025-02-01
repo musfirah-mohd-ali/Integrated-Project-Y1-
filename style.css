@@ -311,3 +311,73 @@ footer{
     max-width: 1200px;
     margin: 0 auto;
 }
+/*CONTACTUS.HTML*/
+.contact-container{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.contact-container h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222e50;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contact-form, .contact-info{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 10%;
+    max-width: 450px;
+}
+.contact-form label{
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #426b69;
+}
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #8bb174;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-form input:focus, .contact-form textarea:focus{
+    outline: none;
+    border-color: #426b69;
+}
+.contact-form button{
+    background-color: #8bb174;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.contact-form button:hover{
+    background-color: #426b69;
+}
+.contact-info h3{
+    color: #222e50;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.contact-info p{
+    color: #426b69;
+    font-size: 16px;
+}
+.map-container iframe{
+    border-radius: 10px;
+}
