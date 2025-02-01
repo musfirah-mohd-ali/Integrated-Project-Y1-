@@ -22,9 +22,9 @@ Next our website is inspired by a combination of other travel websites, such as 
 ## Wireframes and Mockups:
 Our mockups was created by using Figma. We created two seperate mockups, one for low fidelity and one high fidelity.
 * Low Fidelity:
-    - https://www.figma.com/design/wKloRrNpYY603p3ce4lu5A/IP_Ras_Musfirah?node-id=0-1&t=GUmBJMnQRt2IEDcu-1
+    * https://www.figma.com/design/wKloRrNpYY603p3ce4lu5A/IP_Ras_Musfirah?node-id=0-1&t=GUmBJMnQRt2IEDcu-1
 * High Fidelity:
-    - https://www.figma.com/design/9ORsaw0c2r0C2qjx3bMsaj/IP_Ras_Musfirah_high_fidelity?node-id=1-4&t=kaXfMBAw21xJhqCQ-1
+    * https://www.figma.com/design/9ORsaw0c2r0C2qjx3bMsaj/IP_Ras_Musfirah_high_fidelity?node-id=1-4&t=kaXfMBAw21xJhqCQ-1
 
 ## Features
 * list of features
