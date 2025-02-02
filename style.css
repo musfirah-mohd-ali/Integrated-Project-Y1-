@@ -492,7 +492,7 @@ footer{
 }
 
 /*MOBILE VIEW*/
-.hamburger-menu{ /*to hide hte hamburger on destop and tablet view*/
+.hamburger-menu{ /*to hide the hamburger on destop and tablet view*/
     display: none;
     background: none;
     border: none;
@@ -501,6 +501,7 @@ footer{
     cursor: pointer;
 }
 @media (max-width: 768px) {
+    /*NAV BAR*/
     .hamburger-menu{
         display: block;
     }
@@ -515,6 +516,52 @@ footer{
         text-align: center;
         padding: 10px;
     }
+    .nav-link a{
+        font-size: 25px;
+        padding: 10px 0;
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid #ddd;
+    }
+    /*FOOTER*/
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-column{
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-column h3{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .footer-column a{
+        font-size: 16px;
+    }
+
+    /*INDEX.HTML*/
+    /*SEARCH BAR*/
+    .search-bar{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .search-bar select, .search-bar input, .search-bar button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /*TOP COUNTRIES*/
+    .countries-container{
+        grid-template-columns: 1fr;
+    }
+    .country-card{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
 }
 @media (min-width:769px){
         .nav-link{
