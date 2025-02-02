@@ -990,7 +990,7 @@ ul li{
         justify-content: space-between;
         margin-top: 40px;
         flex-direction: column;
-        gap: 5px;
+        gap: 15px;
     }
     .profile-actions button{
         background-color: #8bb174;
