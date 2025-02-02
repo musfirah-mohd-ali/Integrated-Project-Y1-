@@ -490,3 +490,34 @@ footer{
 .package-card button:hover{
     background-color: #426b69;
 }
+
+/*MOBILE VIEW*/
+.hamburger-menu{ /*to hide hte hamburger on destop and tablet view*/
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .hamburger-menu{
+        display: block;
+    }
+    .nav-link{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #222e50;
+        text-align: center;
+        padding: 10px;
+    }
+}
+@media (min-width:769px){
+        .nav-link{
+            display: flex !important;
+        }
+}
