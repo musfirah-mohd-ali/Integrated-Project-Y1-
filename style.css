@@ -548,6 +548,9 @@ footer{
         color: white;
         cursor: pointer;
     }
+    .icons span a{
+        text-decoration: none;
+    }
     /*FOOTER*/
     .footer-container{
         flex-direction: column;
