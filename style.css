@@ -768,10 +768,10 @@ button:hover{
 .accomodation, .meals{
     margin-top: 20px;
 }
-h3{
+.accomodation h3, .tour-inclusions h3{
     font-size: 20px;
     margin-bottom: 10px;
-    color: #b5ca8d;
+    color: #2a4849;
 }
 ul{
     padding-left: 20px;
@@ -1106,7 +1106,29 @@ ul li{
         width: 100%;
         font-size: 16px;
     }
-
+    /*TOUR DETAILS.HTML*/
+    .tour-details{
+        padding: 15px;
+    }
+    .tour-header h1{
+        font-size: 28px;
+    }
+    .tour-header p, .tour-header .price{
+        font-size: 16px;
+    }
+    .tour-icons{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tour-info{
+        margin-top:10px;
+    }
+    .accomodations, .meals, .tour-inclusions{
+        margin-top: 15px;
+    }
+    .accomodations h3, .meals h3, .tour-inclusions h3{
+        font-size: 18px;
+    }
 
 }
 @media (min-width:769px){
