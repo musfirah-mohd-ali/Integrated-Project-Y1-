@@ -50,6 +50,9 @@ body{
     font-size: 25px;
     cursor: pointer;
 }
+.icons a{
+    text-decoration: none;
+}
 
 
 /*FOOTER*/
