@@ -989,6 +989,8 @@ ul li{
         display: flex;
         justify-content: space-between;
         margin-top: 40px;
+        flex-direction: column;
+        gap: 5px;
     }
     .profile-actions button{
         background-color: #8bb174;
