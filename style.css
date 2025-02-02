@@ -710,7 +710,75 @@ footer{
     .shop-card button:hover {
         background-color: #426b69;
     }
-
+    /*PROFILE.HTML*/
+    .profile-container{
+        background-color: #fff;
+        padding: 50px;
+        max-width: 1200px;
+        margin: 0 auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .profile-header{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .profile-img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    .profile-header h2{
+        font-size: 2rem;
+        color: #222e50;
+    }
+    .profile-bio{
+        font-size: 1.2rem;
+        color: #8bb174;
+    }
+    .profile-details h2{
+        font-size: 1.5rem;
+        color: #222e50;
+        margin-bottom: 20px;
+    }
+    .details-item{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        font-size: 1rem;
+        color: #666;
+    }
+    .order-history h3{
+        font-size: 1.5rem;
+        color: #222e50;
+        margin-bottom: 20px;
+    }
+    .order-item{
+        background-color: #f9f9f9;
+        padding: 20px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+    .order-item p{
+        font-size: 1rem;
+        color: #666;
+    }
+    .profile-actions{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .profile-actions button{
+        background-color: #8bb174;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
 }
 @media (min-width:769px){
         .nav-link{
