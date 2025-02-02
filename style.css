@@ -308,6 +308,10 @@ footer{
 .shop-card button:hover{
     background-color: #426b69;
 }
+.shop-card button a{
+    text-decoration: none;
+    color: white;
+}
 .shop-items{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
