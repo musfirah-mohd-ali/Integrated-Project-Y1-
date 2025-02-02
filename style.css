@@ -895,6 +895,89 @@ button:hover{
         font-size: 1rem;
         cursor: pointer;
     }
+    /*PAYMENT.HTML*/
+    .cart-container{
+        padding: 20px 10px;
+    }
+    .cart-container h2{
+        font-size: 24px;
+    }
+    .cart-category h3{
+        font-size: 20px;
+    }
+    .cart-item{
+        flex-direction: column;
+        text-align: center;
+    }
+    .cart-item .item-details{
+        margin-bottom: 10px;
+    }
+    .cart-item .item-name{
+        font-size: 16px;
+    }
+    .cart-item .item-quantity, .cart-item .item-price{
+        font-size: 14px;
+    }
+    .cart-summary{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        font-size: 18px;
+        font-weight: bold
+    }
+    .cart-summary .total{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .cart-summary.total span{
+        color: #426b69;
+        font-size: 16px;
+    }
+    .payment-container{
+        padding: 30px 20px;
+    }
+    .payment-container h2{
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .form-group{
+        margin-bottom: 20px;
+        text-align: left;
+        max-width: 100%;
+        margin:  0 auto;
+        width: 90%;
+    }
+    .form-group label{
+        font-size: 16px;
+        color: #426b69;
+        margin-bottom: 5px;
+        display: block;
+    }
+    .form-group input{
+        width: 90%;
+        padding: 12px;
+        border-radius: 5px;
+        border: 2px solid #8bb174;
+        font-size: 14px;
+        background-color: #fff;
+        margin-top: 5px;
+    }
+    .form-group input:focus{
+        outline: none;
+        border-color: #426b69;
+    }
+    button{
+        background-color: #8bb174;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+        width: 90%;
+    }
 }
 @media (min-width:769px){
         .nav-link{
