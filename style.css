@@ -706,7 +706,6 @@ button:hover{
 }
 .item-details{
     max-width: 500px;
-    text-align: center;
 }
 .item-details .price{
     font-size: 24px;
