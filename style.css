@@ -821,9 +821,9 @@ ul li{
     font-size: 1.8rem;
 }
 input[type="text"], input[type="email"], input[type="password"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
@@ -834,7 +834,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     outline: none;
 }
 #auth-btn {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     background-color: #8bb174;
     color: white;
