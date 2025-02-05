@@ -680,7 +680,7 @@ footer{
     outline: none;
     border: #426b69;
 }
-button{
+.payment-container button{
     background-color: #8bb174;
     color: white;
     border: none;
@@ -688,8 +688,9 @@ button{
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
+    margin-top: 20px;
 }
-button:hover{
+.payment-containter button:hover{
     background-color: #426b69;
 }
 /*ITEM DETAIL.HTML*/
