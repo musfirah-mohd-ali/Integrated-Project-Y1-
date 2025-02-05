@@ -795,6 +795,26 @@ ul li{
     font-size: 20px;
     color: #34495e;
 }
+.book-trip-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.book-now-btn {
+    background-color: #8bb174;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.book-now-btn:hover {
+    background-color: #426b69;
+}
 /*LOGIN.HTML*/
 .auth-container{
     display: flex;
@@ -1200,6 +1220,23 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     .accomodations h3, .meals h3, .tour-inclusions h3{
         font-size: 18px;
     }
+    .book-trip-button{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .book-now-btn{
+        background-color: #8bb174;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        text-decoration: none;
+        text-align: center;
+    }
+    .book-now-btn:hover {
+        background-color: #426b69;
+    }    
     /*LOGIN.HTML*/
     .auth-container{
         display: flex;
@@ -1260,7 +1297,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         font-weight: bold;
         text-decoration: none;
     }
-    
+
 
 }
 @media (min-width:769px){
