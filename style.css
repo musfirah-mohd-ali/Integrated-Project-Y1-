@@ -580,6 +580,13 @@ footer{
     font-size: 1rem;
     cursor: pointer;
 }
+.profile-actions button:hover{
+    background-color: #426b69;
+}
+.profile-actions button a{
+    text-decoration: none;
+    color: white;
+}
 /*PAYMENT.HTML*/
 .cart-container{
     background-color: #f0f0f0;
@@ -690,7 +697,7 @@ footer{
     font-size: 1rem;
     margin-top: 20px;
 }
-.payment-containter button:hover{
+.payment-container button:hover{
     background-color: #426b69;
 }
 /*ITEM DETAIL.HTML*/
@@ -1072,7 +1079,7 @@ ul li{
         outline: none;
         border-color: #426b69;
     }
-    button{
+    .payment-container button{
         background-color: #8bb174;
         color: white;
         border: none;
