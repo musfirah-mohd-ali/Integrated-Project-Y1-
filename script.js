@@ -83,7 +83,6 @@ function login() {
 
         if (user) {
             window.location.href = "index.html"; // Redirect to home page after successful login
-            alert("Login successful!");
         } else {
             alert("Invalid username or password."); // Show error if user not found
         }
