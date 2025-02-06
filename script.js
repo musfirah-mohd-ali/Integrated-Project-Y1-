@@ -187,3 +187,43 @@ function productList() {
 $(document).ready(function() {
     productList(); // Call function to fetch and display products
 });
+
+// PRODUCT DETAIL AP1 #3
+function fetchProductDetails() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('id'); // Get the product ID from the URL
+    
+    if (!productId) {
+        console.error("Product ID is missing");
+        return; // Exit if there's no product ID
+    }
+
+    var settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": `https://muslitravels-cac3.restdb.io/rest/products/${productId}`, // Add product ID to URL
+        "method": "GET",
+        "headers": {
+            "content-type": "application/json",
+            "x-apikey": "67a38794babf100271ec9b92",
+            "cache-control": "no-cache"
+        }
+    };
+
+    $.ajax(settings).done(function (response) {
+        console.log("Product details:", response); // Debugging: log the response
+
+        // Populate the page with product data
+        $('#item-name').text(response.name);
+        $('#item-price').text(`$${parseFloat(response.price).toFixed(2)}`);
+        $('#item-description').text(response.description);
+        $('#item-image').attr('src', response.image_url);
+    }).fail(function (error) {
+        console.error("Error fetching product details:", error);
+    });
+}
+
+// Load product details when the page is ready
+$(document).ready(function() {
+    fetchProductDetails(); // Call the function to load product details
+});
