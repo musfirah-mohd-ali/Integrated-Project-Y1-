@@ -1,3 +1,4 @@
+// FUNCTION TO TOGGLE BETWEEN SIGN UP AND LOG IN
 document.addEventListener("DOMContentLoaded", function () {
     // Grab the toggle form link to switch between "Sign Up" and "Log In"
     const toggleForm = document.getElementById('toggleForm');
@@ -50,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// LOG IN
+// LOG IN API #1
 function login() {
     const username = document.getElementById("full-name").value;
     const password = document.getElementById("password").value;
@@ -137,3 +138,52 @@ function signUp() {
         alert("Error signing up. Please try again."); // Handle AJAX errors
     });
 }
+
+// LIST OF PRODUCTS API #2  
+function productList() {
+    var settings = {
+        "async": true, // Allow AJAX request to run asynchronously
+        "crossDomain": true, // Required for cross-origin requests
+        "url": "https://muslitravels-cac3.restdb.io/rest/products", // API endpoint for fetching product data
+        "method": "GET", // HTTP method to retrieve data
+        "headers": {
+            "content-type": "application/json", // Ensure response is in JSON format
+            "x-apikey": "67a38794babf100271ec9b92", // API key for authentication
+            "cache-control": "no-cache" // Prevent cached responses
+        }
+    };
+
+    // Fetch product data from API
+    $.ajax(settings).done(function (response) {
+        console.log("Products API Response:", response); // Debugging: Log response to console
+
+        const shopContainer = $(".shop-items"); // Select the shop container where products will be displayed
+        shopContainer.empty(); // Clear any existing products before loading new ones
+
+        // Ensure response is an array before looping to prevent errors
+        if (!Array.isArray(response)) {
+            console.error("Unexpected API response format:", response);
+            return;
+        }
+
+        // Loop through product data and dynamically create product cards
+        response.forEach(product => {
+            let productCard = `
+                <div class="shop-card">
+                    <img src="${product.image_url}" alt="${product.name}"> <!-- Product image -->
+                    <h2>${product.name}</h2> <!-- Product name -->
+                    <p class="price">$${parseFloat(product.price).toFixed(2)}</p> <!-- Display price with 2 decimal places -->
+                    <button onclick="window.location.href='itemDetail.html?id=${product._id}'">Explore</button> <!-- Redirect to itemDetail page -->
+                </div>
+            `;
+            shopContainer.append(productCard); // Append generated product card to shop container
+        });
+    }).fail(function (error) {
+        console.error("Error fetching products:", error); // Debugging: Log error in console
+    });
+}
+
+// LOAD PRODUCTS WHEN PAGE LOADS
+$(document).ready(function() {
+    productList(); // Call function to fetch and display products
+});
