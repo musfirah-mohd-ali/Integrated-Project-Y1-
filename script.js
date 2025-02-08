@@ -80,11 +80,11 @@ function login() {
     $.ajax({
         "async": true,
         "crossDomain": true,
-        "url": "https://muslitravels-cac3.restdb.io/rest/contact",
+        "url": "https://muslitravlesdb-2cac.restdb.io/rest/contact",
         "method": "GET",
         "headers": {
             "content-type": "application/json",
-            "x-apikey": "67a38794babf100271ec9b92", // Ensure this API key is correct
+            "x-apikey": "67a77bb54d8744b75b82803c", // Ensure this API key is correct
             "cache-control": "no-cache"
         }
     }).done(function (response) {
@@ -132,11 +132,11 @@ function signUp() {
     $.ajax({
         "async": true,
         "crossDomain": true,
-        "url": "https://muslitravels-cac3.restdb.io/rest/contact",
+        "url": "https://muslitravlesdb-2cac.restdb.io/rest/contact",
         "method": "POST",
         "headers": {
             "content-type": "application/json",
-            "x-apikey": "67a38794babf100271ec9b92", // Ensure this API key is correct
+            "x-apikey": "67a77bb54d8744b75b82803c", // Ensure this API key is correct
             "cache-control": "no-cache"
         },
         "data": JSON.stringify(newUser), // Send the user data as a JSON string
@@ -154,11 +154,11 @@ function productList() {
     var settings = {
         "async": true, // Allow AJAX request to run asynchronously
         "crossDomain": true, // Required for cross-origin requests
-        "url": "https://muslitravels-cac3.restdb.io/rest/products", // API endpoint for fetching product data
+        "url": "https://muslitravlesdb-2cac.restdb.io/rest/products", // API endpoint for fetching product data
         "method": "GET", // HTTP method to retrieve data
         "headers": {
             "content-type": "application/json", // Ensure response is in JSON format
-            "x-apikey": "67a38794babf100271ec9b92", // API key for authentication
+            "x-apikey": "67a77bb54d8744b75b82803c", // API key for authentication
             "cache-control": "no-cache" // Prevent cached responses
         }
     };
@@ -211,11 +211,11 @@ function fetchProductDetails() {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": `https://muslitravels-cac3.restdb.io/rest/products/${productId}`, // Add product ID to URL
+        "url": `https://muslitravlesdb-2cac.restdb.io/rest/products/${productId}`, // Add product ID to URL
         "method": "GET",
         "headers": {
             "content-type": "application/json",
-            "x-apikey": "67a38794babf100271ec9b92",
+            "x-apikey": "67a77bb54d8744b75b82803c",
             "cache-control": "no-cache"
         }
     };
