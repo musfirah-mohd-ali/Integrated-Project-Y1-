@@ -240,7 +240,7 @@ $(document).ready(function() {
 
 let itemsData = []; // This will store the JSON data loaded from the file
 
-// Load JSON data
+//TO CALL JSON FILE
 fetch('items.json')
     .then(response => response.json())
     .then(data => {
@@ -278,7 +278,7 @@ function addToCart() {
     alert("Item added to cart!");
 }
 
-// Display Cart on Payment Page
+// FUNCTION TO DISPLAY CART
 function displayCart() {
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
     let cartItemsContainer = document.getElementById("cart-items");
@@ -302,7 +302,7 @@ function displayCart() {
     cartTotalContainer.textContent = `$${total.toFixed(2)}`;
 }
 
-// Function to handle payment submission
+// FUNCION FOR PAYMENT
 function handlePaymentSubmission(event) {
     event.preventDefault(); // Prevent form submission
 
