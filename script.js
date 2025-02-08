@@ -1,4 +1,4 @@
-//HAMBURGER MENU
+// HAMBURGER MENU
 document.addEventListener("DOMContentLoaded", function () {
     const menuButton = document.querySelector(".hamburger-menu");
     const navLinks = document.querySelector(".nav-link");
@@ -198,7 +198,7 @@ $(document).ready(function() {
     productList(); // Call function to fetch and display products
 });
 
-// PRODUCT DETAIL AP1 #3
+// PRODUCT DETAIL API #3
 function fetchProductDetails() {
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get('id'); // Get the product ID from the URL
@@ -236,4 +236,91 @@ function fetchProductDetails() {
 // Load product details when the page is ready
 $(document).ready(function() {
     fetchProductDetails(); // Call the function to load product details
+});
+
+let itemsData = []; // This will store the JSON data loaded from the file
+
+// Load JSON data
+fetch('items.json')
+    .then(response => response.json())
+    .then(data => {
+        itemsData = data.items; // Store the items in the global variable
+    })
+    .catch(error => console.error("Error loading items JSON:", error));
+
+// FUNCTION TO ADD TO CART
+function addToCart() {
+    let name = document.getElementById("item-name").textContent; // Get item name from the page
+    let quantity = parseInt(document.getElementById("quantity").value); // Get quantity from input
+
+    // Find the item in the JSON data
+    let item = itemsData.find(item => item.name === name);
+
+    if (!item) {
+        alert("Item not found in inventory.");
+        return;
+    }
+
+    let price = item.price; // Get the price from the JSON data
+
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    let existingItem = cart.find(itemInCart => itemInCart.name === name);
+
+    if (existingItem) {
+        existingItem.quantity += quantity; // Update quantity if the item exists in the cart
+    } else {
+        cart.push({ name, price, quantity }); // Add new item if it doesn't exist
+    }
+
+    localStorage.setItem("cart", JSON.stringify(cart)); // Save the updated cart to localStorage
+    console.log("Cart after adding item:", cart); // Debugging: log the updated cart
+
+    alert("Item added to cart!");
+}
+
+// Display Cart on Payment Page
+function displayCart() {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    let cartItemsContainer = document.getElementById("cart-items");
+    let cartTotalContainer = document.getElementById("cart-total");
+    
+    cartItemsContainer.innerHTML = "";
+    let total = 0;
+
+    cart.forEach(item => {
+        let itemTotal = item.price * item.quantity;
+        total += itemTotal;
+
+        let itemElement = document.createElement("div");
+        itemElement.classList.add("cart-item");
+        itemElement.innerHTML = `
+            <p>${item.name} (Qty: ${item.quantity}) - $${itemTotal.toFixed(2)}</p>
+        `;
+        cartItemsContainer.appendChild(itemElement);
+    });
+
+    cartTotalContainer.textContent = `$${total.toFixed(2)}`;
+}
+
+// Function to handle payment submission
+function handlePaymentSubmission(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Clear the cart from localStorage
+    localStorage.removeItem("cart");
+
+    // Show payment success popup
+    alert("Payment successful! You will be redirected to the homepage.");
+
+    // Redirect to index.html
+    window.location.href = "index.html";
+}
+
+// Handle Payment Submission on page load
+document.addEventListener("DOMContentLoaded", () => {
+    let paymentForm = document.querySelector(".payment-container form");
+
+    if (paymentForm) {
+        paymentForm.addEventListener("submit", handlePaymentSubmission);
+    }
 });

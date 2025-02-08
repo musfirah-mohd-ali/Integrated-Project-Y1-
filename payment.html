@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Nanum+Myeongjo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="banner">
@@ -28,37 +29,12 @@
             </div>
         </div>
     </div>
-    <!--CART-->
     <div class="cart-container">
         <h2>Your Cart</h2>
-        <div class="cart-category">
-            <h3>Travel Packages</h3>
-            <div class="cart-item">
-                <div class="item-details">
-                    <span class="item-name">5 Days Chiangmai and Chiangrai Discovery</span>
-                    <span class="item-price">$1299</span>
-                </div>
-                <div class="item-total">$1299</div>
-            </div>
-        </div>
-        <div class="cart-category">
-            <h3>Travel Essentials</h3>
-            <div class="cart-item">
-                <div class="item-details">
-                    <span class="item-name">Travel Pillow</span>
-                    <span class="item-quantity">Qty: 2</span>
-                    <span class="item-price">$20.00</span>
-                </div>
-                <div class="item-total">$40.00</div>
-            </div>
-        </div>
-        <div class="cart-summary">
-            <div class="total">
-                <span>Total:</span>
-                <span>$1339.00</span>
-            </div>
-        </div>
+        <div id="cart-items"></div>
+        <p id="cart-total"></p>  <!-- To display the total price -->
     </div>
+    
     <!--PAYMENT-->
     <div class="payment-container">
         <h2>Payment Informations</h2>
@@ -79,7 +55,7 @@
                 <label for="cvv">CVV</label>
                 <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
             </div>
-            <button type="submit">Submit Payment</button>
+            <button type="submit" onclick="handlePaymentSubmission()">Submit Payment</button>
         </form>
     </div>
     <!--FOOTER-->
@@ -110,5 +86,8 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script>
+        displayCart(); // Load cart items when the page loads
+    </script>
 </body>
 </html>

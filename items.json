@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "name": "Stealth Hard Case Trolley (Large)",
+            "image_url": "source images/luggage.jpeg",
+            "price": 357
+        },
+        {
+        "name": "Sony ULT WEAR Wireless Noise-Canceling Headphones",
+        "image_url": "source images/headphones.jpeg",
+        "price": 245
+        },
+        {
+        "name": "Mazer Infinite.Travel World GAN PD65W Travel Charger",
+        "image_url": "source images/adapter.jpeg",
+        "price": 70
+        },
+        {
+        "name": "Travel Blue Hooded Tranquility",
+        "image_url": "source images/neckPillow.jpeg",
+        "price": 55
+        }
+    ]
+    }
