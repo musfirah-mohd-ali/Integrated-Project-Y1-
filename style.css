@@ -739,6 +739,32 @@ footer{
 .item-details .add-to-cart:hover{
     background-color: #426b69;
 }
+.item-details input[type="number"] {
+    width: 80px; /* Adjust the width to fit nicely */
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #426b69;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    background-color: #fff;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.item-details input[type="number"]:focus {
+    border-color: #8bb174;
+    background-color: #f1f1f1;
+}
+
+.item-details input[type="number"]::-webkit-outer-spin-button,
+.item-details input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.item-details input[type="number"]:hover {
+    border-color: #8bb174;
+}
 /*TOUR.HTML*/
 .tour-details{
     max-width: 1200px;
