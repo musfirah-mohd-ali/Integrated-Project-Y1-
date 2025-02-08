@@ -1,3 +1,14 @@
+//HAMBURGER MENU
+document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.querySelector(".hamburger-menu");
+    const navLinks = document.querySelector(".nav-link");
+    menuButton.addEventListener("click", function () {
+        if (window.innerWidth <= 768) {
+            navLinks.style.display = navLinks.style.display === "flex" ? "none" : "flex";
+        }
+    });
+});
+
 // FUNCTION TO TOGGLE BETWEEN SIGN UP AND LOG IN
 document.addEventListener("DOMContentLoaded", function () {
     // Grab the toggle form link to switch between "Sign Up" and "Log In"
