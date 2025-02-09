@@ -324,3 +324,18 @@ document.addEventListener("DOMContentLoaded", () => {
         paymentForm.addEventListener("submit", handlePaymentSubmission);
     }
 });
+// FUNCTION TO CLEAR FORM AFTER USER CLICKS SUBMIT MESSGAGE
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector(".contact-form form");
+
+    function handleFormSubmission(event) {
+        event.preventDefault();
+        form.reset();
+        setTimeout(() => {
+            location.reload();
+        }, 1000);
+    }
+    if (form) {
+        form.addEventListener("submit", handleFormSubmission);
+    }
+});
