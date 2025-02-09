@@ -55,6 +55,16 @@ Our mockups was created by using Figma. We created two seperate mockups, one for
 * To learn how to implement the APIs.
 * To find out where is the best place to put a javascript.
 * Used ChatGPT to fix our visuals and functions on the Login screen.
+    ![sample img](readme photos/loginAI.png)
 * The comments on our script.js was created using AI.
 * Research done on how to use the JSON file after the local Storage method was not working was done using AI.
 * Used AI to fix our grammar for README.md.
+
+## Testing
+###
+
+## Links to GitHub repository and Website
+* Github Repository:
+    * https://github.com/musfirah-mohd-ali/Integrated-Project-Y1-
+* Website:
+    * https://musfirah-mohd-ali.github.io/Integrated-Project-Y1-/
