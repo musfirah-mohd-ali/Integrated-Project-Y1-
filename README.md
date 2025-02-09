@@ -1,9 +1,9 @@
 # Musli Travels
-Musli Travels is a e-commerce travel agency website that allows its users to purchase tours and travelling items in an all-in-one transaction. Our website allows users to earn points from each transaction, allowing them to buy travel products from our shop without spending an extra dime. Furthermore, users can gift their friends any travel products from our shop using their points.
+Musli Travels is an e-commerce travel agency website that allows its users to purchase tours and travel items in an all-in-one transaction. Our website allows users to earn points from each transaction, enabling them to buy travel products from our shop without spending an extra dime. Furthermore, users can gift their friends any travel products from our shop using their points.
 
 ## User Audience Intent and Purpose
 ### Who is the website catering for?
-Our website is curated for new travellers that are not familiar with the places they want to travel to and need a bit of help planning out thier iteneraries. Our website is also for those that want to buy some travel essentials such as luggage bags and neck pillows wihtout the hassle of going to another website.
+Our website is curated for new travelers who are not familiar with the places they want to travel to and need a bit of help planning their itineraries. Our website is also for those who want to buy travel essentials such as luggage bags and neck pillows without the hassle of going to another website.
 ### Purpose and Value Provided:
 1. Travellers
     * Simple and convinient way to book their holiday destination which includes iteneraries and miscellaneous items.
@@ -15,9 +15,9 @@ Our website is curated for new travellers that are not familiar with the places 
     * They still earn revenue even though the traveller cancelled their plans as our company is the middleman handling all the transactions. 
 
 ## Design Process
-So the colour scheme was chosen because we wanted to mix both our favourites colours being blue and green. We also chose our colour scheme as after doing research, we found that travel agencies use earthy and sky-ish tones to relate back to air travel and land travel such as airplanes and trains. Our logo is a luggage bag with a silhouette of an airplane. This is to symbolize the different stages of travel such as the packing of clothing before your flight and the actual travelling on the vessel itself.
+The color scheme was chosen because we wanted to mix both of our favorite colors, blue and green. We also selected this color scheme after conducting research, as we found that travel agencies typically use earthy and sky-like tones to relate to air travel and land travel, such as airplanes and trains. Our logo is a luggage bag with a silhouette of an airplane. This symbolizes the different stages of travel, such as the packing of clothing before your flight and the actual traveling on the vessel itself.
 
-Next our website is inspired by a combination of other travel websites, such as Chan Brothers and Fayyaz Travels. Firstly, we chose the UI to look simple so that our users are not distracted by things such as ads or pop ups. Secondly, we chose this layout design to emphasize functionality over complex aesthetics to allow users a simple way of navigating our site.
+Our website’s design is inspired by a combination of other travel websites, such as Chan Brothers and Fayyaz Travels. Firstly, we chose a simple UI to ensure that our users are not distracted by ads or pop-ups. Secondly, we selected this layout design to emphasize functionality over complex aesthetics, allowing users a straightforward way to navigate our site.
 
 ## Wireframes and Mockups:
 Our mockups was created by using Figma. We created two seperate mockups, one for low fidelity and one high fidelity.
@@ -32,7 +32,7 @@ Our mockups was created by using Figma. We created two seperate mockups, one for
 * Payment system
 * Embedded Google Maps
 * Forms for the Contact Us page
-* Working navigation links between pages.
+* Working navigation links between pages
 
 ## APIs Used
 * restdb.io
@@ -57,3 +57,4 @@ Our mockups was created by using Figma. We created two seperate mockups, one for
 * Used ChatGPT to fix our visuals and functions on the Login screen.
 * The comments on our script.js was created using AI.
 * Research done on how to use the JSON file after the local Storage method was not working was done using AI.
+* Used AI to fix our grammar for README.md.
