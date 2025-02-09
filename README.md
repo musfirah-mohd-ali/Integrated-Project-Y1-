@@ -55,17 +55,46 @@ Our mockups was created by using Figma. We created two seperate mockups, one for
 * To learn how to implement the APIs.
 * To find out where is the best place to put a javascript.
 * Used ChatGPT to fix our visuals and functions on the Login screen.
-![loginAI]("readme photos/loginAI.png")
 * The comments on our script.js was created using AI.
 * Research done on how to use the JSON file after the local Storage method was not working was done using AI.
+    - All photos of proof are in the read me photo folders
 
 * Used AI to fix our grammar for README.md.
 
 ## Testing
-###
+1. Contact Form
+    1. Go to "Contact Us" page
+    2. Try to submit form with missing fields
+    3. Try to submit form with invalid email
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+2. Add to cart
+    1. Go to "Shop Page" page
+    2. Click on an item
+    3. Add to cart
+    4. Add to cart with diffrent quantity
+3. Display Cart
+    1. Go to "Payment" page
+    2. Cart should be displayed with the correct quantity and price total
+4. Check Out
+    1. Navigate to "Payment" page
+    2. Submit form with missing fields
+    3. Submit form with invalid fields
+    4. Submti form with all inputs calid and verfied.
+    5. Page should reload and clear after presing "Submit Payment"
 
 ## Links to GitHub repository and Website
 * Github Repository:
     * https://github.com/musfirah-mohd-ali/Integrated-Project-Y1-
 * Website:
     * https://musfirah-mohd-ali.github.io/Integrated-Project-Y1-/
+
+## Credits
+### Content
+ * The items and item description in the Shop page and Item Details page were copied from [iShopChangi](https://www.ishopchangi.com/en/home)
+ * All information about the tour was copied from [chanBrothers](https://www.chanbrothers.com/package-tours/asia/south-korea/see-seoul-busan)
+
+### Media
+* All media and information used came from [iShopChangi](https://www.ishopchangi.com/en/home) and [chanBrothers](https://www.chanbrothers.com/package-tours/asia/south-korea/see-seoul-busan)
+
+### Acknowledgment
+* I recieved inspiration for this project from ChanBrothers, Fayyaz Travels, WTS travel and Holidats from Singapore
